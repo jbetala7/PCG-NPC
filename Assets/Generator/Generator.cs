@@ -41,7 +41,7 @@ public class Generator : MonoBehaviour
 				else if (!playerSpawned)
 				{
 					// Spawn player
-					Vector3 pos = new Vector3(x - width / 2f, 1.25f, y - height / 2f);
+					Vector3 pos = new Vector3(x - width / 2f, 0f, y - height / 2f);
 					Instantiate(player, pos, Quaternion.identity);
 					playerSpawned = true;
 				}
